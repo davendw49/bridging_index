@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <img src="https://big-cheng.com/img/bi.png" width="300"/>
+    <img src="https://big-cheng.com/img/bi_logo.png" width="300"/>
     <br>
 <p>
 
