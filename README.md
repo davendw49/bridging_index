@@ -5,14 +5,13 @@
 <p>
 
 <h4 align="center">
-    <p>Package of Bridge Index</p> 
+    <p>Package of Bridging Index</p> 
     <p>A node-level metric to evaluate the bridging nature of nodes in networks</p>
 </h4>
 
 **Notes**
 
-- Codes for calculating bridge Index and Ricci-curvature.
-- The implementation of MobiHoc 2023 paper.
+- Codes for calculating Bridging Index and Ricci-curvature.
 
 
 ## Usage
@@ -22,8 +21,8 @@
 - **Pipeline**
 
 ```bash
-git clone https://github.com/davendw49/bridge_index.git
-cd bridge_index
+git clone https://github.com/davendw49/bridging_index.git
+cd bridging_index
 cp /path/to/your/graph/* graph_data/
 cmake .
 make
@@ -34,9 +33,9 @@ make
 
 1. *_compare (nodes id mapping files)
 2. *_converse (graph with new id)
-3. *_bi (bridge index file with new id)
+3. *_bi (Bridging index file with new id)
 4. *_ricci (ricci curvature file with new id)
-5. *_bi_result (bridge index file with original id)
+5. *_bi_result (Bridging index file with original id)
 6. *_ricci_result (ricci curvature file with original id)
 
 ### 2. With your own networks
@@ -69,14 +68,4 @@ make
 
 ## To-do
 - [ ] Source code for higher order network property analysis
-- [ ] Papers using *Bridge Index* to evaluate the networks
-
-<!-- ## Citation
-
-Our [paper](#) has been accepted as a resource paper at CIKM-2021 :
-```bibtex
-@inproceedings{deng2021bridge,
-  title={How researchers are bridged globally during the COVID-19 pandemic},
-  author={Deng, Cheng and Fu, Luoyi and Zhang, Weinan and Zhang, Xinbing and Zhou, Chenghu},
-}
-``` -->
+- [ ] Papers using *Bridging Index* to evaluate the networks
